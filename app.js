@@ -12,7 +12,7 @@ window.onload = function(){
     const pressure = document.querySelector('.pressure-data')
     let alertShown = false; 
     
-    function showAlert() {
+    /*function showAlert() {
         if (!alertShown) {
             
         
@@ -21,7 +21,7 @@ window.onload = function(){
         }
     } 
     
-    setTimeout(showAlert, 10000);
+    setTimeout(showAlert, 10000);*/
     
     
     async function getWeather(city) {
