@@ -39,7 +39,7 @@ window.onload = function(){
       humidity.innerHTML = data.current['humidity']
       pressure.innerHTML = data.current['pressure_mb']
       
-      showAlert();
+     //showAlert();
     }
     //getWeather(city); 
     
